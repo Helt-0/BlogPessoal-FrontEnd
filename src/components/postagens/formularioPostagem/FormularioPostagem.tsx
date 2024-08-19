@@ -52,7 +52,7 @@ function FormularioPostagem() {
       headers: {
         Authorization: token,
       },
-    });
+    })
   }
 
   useEffect(() => {
